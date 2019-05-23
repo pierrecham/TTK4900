@@ -1,5 +1,5 @@
 # TTK4900
-Code used for my Master thesis in 2019.
+Code used in my Master thesis in 2019.
 
 ## Detection
 The "detection"-folder contains a Google Colab Notebook that can be opened in Google Colab. First, the Notebook downloads the trained models of the detection networks from a public Google Drive folder. This includes configuration files, data files and trained weights files. Then, the Notebook clones darknet from a Github repository, moves the models of the detection network to darknet and makes darknet. Finally, the Notebook tests the models on an image and on a video.
