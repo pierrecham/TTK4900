@@ -5,7 +5,7 @@ Code used in my Master's thesis in the spring of 2019.
 The "detection"-folder contains a Google Colab Notebook that can be opened in Google Colab. First, the Notebook downloads the trained models of the detection networks from a public Google Drive folder. This includes configuration files, data files and trained weights files. Then, the Notebook clones darknet from a Github repository, moves the models of the detection network to darknet and makes darknet. Finally, the Notebook tests the models on an image and on a video.
 
 The public Google Drive folder that contains the trained YOLOv3 models is found at:
-[https://drive.google.com/drive/folders/1DZrRBUX2BBXoT6BIQoQB1cWFtq4LYKVL?usp=sharing](https://drive.google.com/drive/folders/1Pzohq7vNqAuCfYIOwe2rc5hF5tXhI7q6?usp=sharing)
+https://drive.google.com/drive/folders/1Pzohq7vNqAuCfYIOwe2rc5hF5tXhI7q6?usp=sharing
 
 ## Segmentation
 The "segmentation"-folder contains two python program files, "main.py" and "segmentation.py": 
